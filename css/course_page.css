@@ -1,0 +1,161 @@
+a{
+    text-decoration: none;
+}
+
+/*///////////////// Hero + Navbar  //////////////////////*/
+#page-header{
+    height: 70%;
+}
+#page-header .course-hero-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(37, 19, 19, 0.9)), url("../images/images/img_2_big.jpg" );
+    height: 90%;
+    width: 100%;
+}
+.test-hero{
+    text-align: center;
+    padding-top: 5%;
+}
+.test-hero b {
+    font-size: 30px;
+}
+.test-hero p{
+    color: #9b9aa0;
+}
+.test-hero a {
+    color: white;
+}
+.hero-course-name{
+    font-size:200%; 
+    margin-bottom: 2%;
+}
+
+/*///////////////// Course Instrctor Section  //////////////////////*/
+
+.course-instrctor{
+    width: 24%;
+    float: right;
+    margin-left: 2%;
+    text-align: center;
+    border: solid 1px #ccc;
+    padding: 1% 2%  ;
+    height: 90%;
+}
+.course-instrctor-header{
+    padding: 10% 0%;
+    border-bottom:  solid 1px #ccc;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+
+}
+
+.course-instrctor figure img {
+    max-width: 30%;
+    min-width: 30%;
+    border-radius: 50%;
+    margin: 8% 0 ; 
+}
+/*///////////////// Design Course Section  //////////////////////*/
+.design-course-section{
+    width: 72%;
+    float: left;
+}
+.decs-header h3{
+    padding-bottom: 2%;
+}
+.decs-header p time{
+    color: #8694b9;
+    padding-left: 2%;
+}
+
+.p-course-decs p{
+    color: #8694b9;
+    padding:2% 0 ; 
+}
+.course-examples{
+    width: 100%;
+
+}
+
+.course-img-example{
+    width: 47%;
+    float: left;
+    margin-left:3% ;
+}
+.first-img{margin-left: 0%;}    
+.course-img-example img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.admission-btn{
+    border-radius: 5px;
+    margin-top: 2%;
+}
+/*///////////////// Comments Section  //////////////////////*/
+#comments{
+    margin: 5% 0 ;
+}
+#comments header{
+    padding: 4%  0;
+
+}
+#comments ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+#comments ul li {
+ position: relative;
+ margin:2% 0; 
+}
+#comments ul li figure{
+    position: absolute;
+    width: 20%;
+    left:-10%;
+}
+#comments ul li figure img {
+    
+    min-width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+}
+#comments ul li time{ color:#e3d9e1}
+#comments ul li p{ 
+    color: #848fa5;
+    padding:3% 0;
+}
+#comments ul li a{ 
+    background: #e6e6e6;
+    border: none;
+    padding:.5% 1%;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+}
+#comments ul li a:hover{
+    padding:1% 1.5%;
+} 
+/*///////////////// Leave Comments Section  //////////////////////*/
+#leave-comment{
+    width: 80%;
+    background: #f8f9fb;
+    padding: 5%;
+}
+#leave-comment label{
+    display: block;
+    color:#a8b4aa;
+}
+#leave-comment input {
+    height: 35px;
+}
+#leave-comment input ,#leave-comment textarea  {
+    width: 90%;     
+    border: solid 1px #cfd4da;
+
+    padding-left:2%; 
+    
+}

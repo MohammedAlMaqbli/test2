@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body , html{height: 100%;}
+.btn {
+    background-color: #7870e9;
+    border: none;
+    color: white;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+      box-shadow: 0 0 8px rgba(134, 130, 130, 0.733);
+      padding: 15px 25px;
+  }
+  .btn-white{
+    background-color: white;
+    color: blue;
+    margin: 20px 20px;
+  }
+  .btn-white:hover{
+    box-shadow: 0 0 8px rgba(61, 57, 57, 0.733)
+  }
+.section{
+    margin-bottom:2%; 
+}  
+/*///////////////// Hero + Navbar  //////////////////////*/
+#page-header{
+    height: 100%;
+}
+.hero-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(37, 19, 19, 0.9)), url("../images/images/hero_1.jpg" );
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-inner-container{
+      width: 80%;
+      margin: 0 auto;
+      color: white;
+      
+  }
+  .center-hero{
+    width: 99%;
+    height: 60%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 20%; left: 0; bottom: 0; right: 0;
+    
+  }
+  .center-hero:hover{
+    box-shadow: 0 0 5px ;
+    
+  }
+  .navbar{
+      padding: 2% 0 ; 
+  }
+  .navbar a , #hero-header a{
+      text-decoration: none;
+      color: white;
+  }
+  
+ nav ul {
+     text-align: center;
+ }
+  nav ul li{
+    display: inline;
+}
+nav ul li a {
+   text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+
+}
+
+ .hoverLink:hover {
+    border-bottom: cornsilk solid 2px;
+ 
+ }
+.navbar h2{
+    display: inline;
+    text-align: left;
+    float: inline-start;
+}
+#top-about-us{
+    float: right;
+}
+#hero-header h1 , #hero-header p{
+    padding: 3% 0 ;
+}
+#hero-header p{
+color: #869598;
+}
+#sign-up-form{
+    color: black;
+    background: white;
+    margin-top: 1%;
+    border: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 80%;
+    padding: 35px 35px;
+
+
+}
+#sign-up-form form input{
+    width: 90%;
+    height: 35px;
+    margin: 6px 0;
+    display: block;
+    border: #cdd4da solid 1px ;
+    padding: 5px;
+    border-radius: 5px;
+}
+#sign-up-form form input:focus {
+    border: #7971ea solid 1px ;
+}
+/*///////////////// Courses Section//////////////////////*/
+.blue-background{
+    background: #7971ea;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.section-header{
+    text-align: center;
+    padding: 5% 0 ;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.all-courses{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+.course{
+    width: 31%;
+    background: white;
+    box-shadow: 0 0 10px black;
+    margin-left:  3% ;
+    float: left;
+    height: 100%;
+    
+}
+.course:hover{
+    box-shadow: 0 0 20px black;
+    transition: box-shadow ease-in 0.2;
+}
+.first-course{
+    margin-left: 0;
+}
+.course-img{
+    width: 100%;
+    position: relative;
+}
+.course-img img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 2%;
+    min-height: 2%;
+    
+}
+.price-tag{
+    position: absolute;
+    bottom:-20px;
+    right: 0px;
+    background: #7771ed;
+    padding: 5%;
+    border: none;
+    color: white;
+}
+.course-details{
+    padding:3%; 
+}
+.course-name{
+    margin: 5% auto;
+}
+.course-name a{
+ text-decoration: none;
+}
+.course-desc{
+    margin: 3% auto;
+}
+.course-time{
+    padding-top: 5% ;
+}
+.course-footer{
+    padding: 10px;
+    margin: 2%;
+    border-top: solid 1px #eee;
+    
+}
+.number-of-student{
+    border-right: solid 1px #eee;
+    padding-right: 60%;
+}
+.course-btns-div{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+/*///////////////// Our Programs Section//////////////////////*/
+.black{
+    color: black;
+}
+.section-desc{
+    text-align: center;
+    padding : 1% 30%;
+    color: #969e91;
+}
+.program-img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.program{
+   margin-top: 5%;
+   margin-bottom:2%;
+   height: 100%; 
+    
+}
+div.program .program-details{
+    padding :5%;
+    margin-top:5%; 
+}
+.program-name{
+    margin:5% 0 ; 
+}
+.program-desc{
+    color: #8d7f8c;
+    margin-bottom: 5%;
+}
+.program-features {
+    color: #7771ed;
+    
+    /*list-style-image: url("../images/List1.png");*/
+    
+}
+.program-features li {
+    
+    padding:15px 0 ;
+    
+}
+/*///////////////// Our Teachers //////////////////////*/
+.teacher{
+    width:30%;
+    float: left;
+    margin:15% 0 3% 2%;
+    border: solid 1px #e8ecef; 
+    padding: 4% 5%;
+    position: relative;
+    box-shadow: 0 0 2px black; 
+}
+.teacher:hover{
+    box-shadow: 0 0 10px black; 
+    transition: box-shadow ease-in 12;
+    width: 32%;
+
+}
+.teacher-img img {
+    width: 40%;
+    position: absolute;
+    border-radius: 50%;
+    top: -30%;
+    left: 30%;
+}
+.teacher_info{
+    text-align: center;
+    padding-top:15%; 
+}
+.teacher-prof, .teacher-name{
+    padding-bottom: 5%;
+}
+.teacher-prof{
+    color: #aed3ee;
+}
+.teacher-desc{
+    color: #8987af;
+}
+/*///////////////// Students //////////////////////*/
+.black-background{
+    background: #4c4c4c;
+}
+.student-img{
+    margin:5% 0; 
+    width: 20%;
+    border-radius: 50%;
+}
+.student{
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+q{
+    padding: 2% 0;
+    margin: 3% 0;
+    display: block;
+}
+/*///////////////// why-choose section //////////////////////*/
+.why-choose-us{
+    position: relative;
+}
+.bottom-left{
+    position: absolute;
+    top: 0;
+    z-index: -4;
+    left: -20%;
+}
+.top-right{
+    position: absolute;
+    bottom: 80px;
+    right: -12%;
+    z-index: -3;
+}
+.middel-img{
+    position: absolute;
+    z-index: -2;
+    left: 50%;
+    
+}
+.middel-img img{
+    max-width: 80%;
+    min-width: 80%;
+}
+.why-choose{
+    background: white;
+    width: 30%;
+    box-shadow: 0 0 5px #c5b3b3;
+    margin: 6% 13% 12% 14%;
+}
+.why-choose:hover{
+
+    width:31%;
+    box-shadow: 0 0 5px #d6cccc;
+    left: 15%;
+}
+.why-choose ul{
+    padding:10% ;
+}
+.why-choose ul li{
+    padding:3% ;
+}
+/*///////////////// Message Us//////////////////////*/
+.message-section{
+    background: #f8f9fb;
+    text-align: center;
+    
+}
+.message-form input ,textarea{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.message-form input[name*="name"]{
+    width:24%;
+    margin-left: 2%;
+}
+.message-form input[name="fname"]{
+    margin-left: 0;
+}
+.message-form input:focus , .message-form textarea:focus{
+    border: #7971ea solid 1px ;
+}
+/*///////////////// Footer //////////////////////*/
+footer{
+    padding :2%;
+    box-shadow: 0 0 5px #d6cccc;
+}
+#footer-sub ,#footer-links{
+    margin-left: 2%;
+}
+.footer-header{
+    margin: 4% 0 ;
+}
+#about-us , #footer-sub p{
+    color: #7b8899;
+}
+#footer-links{
+    text-align: center;
+}
+#footer-links ul {
+    list-style: none;
+}
+#footer-links ul li {
+    
+    text-align: center;
+    padding:1% 0 ;
+}
+#footer-links ul li a{
+    text-decoration: none;
+}
+
+#footer-sub input[type="email"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;   
+}
+#footer-sub input[type="email"]:focus {
+    border: #7971ea solid 1px ;
+    
+}
+#footer-sub input[type="submit"] {
+    padding: 12.8px 8px;
+    color: white;
+    background: #7971ea;
+    border: none;
+}
+
+/*///////////////// Col & clearfix //////////////////////*/
+.hero-col{
+    width: 40%;
+    float: left;
+    margin-left:10%;
+    margin-top:1%;
+    padding: 1%; 
+}
+.col-1{
+    width: 32%;
+    padding:1%;
+    float: left;
+    margin-left:4%;
+}
+.col-3{
+    width: 62%;
+    padding:1%;
+    float: left;
+    margin-left:4%;
+}
+.first{
+    margin-left: 0;
+}
+.f-right{
+    float: right;
+}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    visibility: hidden;
+    display: block;
+    height: 0;
+    line-height: 0;
+}
+
+
